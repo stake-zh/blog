@@ -70,7 +70,8 @@ deploy:
   type: git
   repository: https://github.com/starkey-zh/starkey-zh.github.io.git
   branch: master
-  social:
+duoshuo_shortname: starkey
+social:
     github: https://github.com/starkey-zh
     weibo: http://weibo.com/starkey86
     zhihu: http://www.zhihu.com/people/starkey-zhang
