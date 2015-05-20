@@ -1,6 +1,6 @@
 title: Hello World
 ---
-Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Welcome to [Hexo][1]! This is your very first post. Check [documentation][2] for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting][3] or you can ask me on [GitHub][4].
 
 ## Quick Start
 
@@ -10,7 +10,7 @@ Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documen
 $ hexo new "My New Post"
 ```
 
-More info: [Writing](http://hexo.io/docs/writing.html)
+More info: [Writing][5]
 
 ### Run server
 
@@ -18,7 +18,7 @@ More info: [Writing](http://hexo.io/docs/writing.html)
 $ hexo server
 ```
 
-More info: [Server](http://hexo.io/docs/server.html)
+More info: [Server][6]
 
 ### Generate static files
 
@@ -26,7 +26,7 @@ More info: [Server](http://hexo.io/docs/server.html)
 $ hexo generate
 ```
 
-More info: [Generating](http://hexo.io/docs/generating.html)
+More info: [Generating][7]
 
 ### Deploy to remote sites
 
@@ -34,4 +34,13 @@ More info: [Generating](http://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
-More info: [Deployment](http://hexo.io/docs/deployment.html)
+More info: [Deployment][8]
+
+[1]:	http://hexo.io/
+[2]:	http://hexo.io/docs/
+[3]:	http://hexo.io/docs/troubleshooting.html
+[4]:	https://github.com/hexojs/hexo/issues
+[5]:	http://hexo.io/docs/writing.html
+[6]:	http://hexo.io/docs/server.html
+[7]:	http://hexo.io/docs/generating.html
+[8]:	http://hexo.io/docs/deployment.html
