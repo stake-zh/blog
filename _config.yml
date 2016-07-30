@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: starkey-zh`s blog
+title: stake-zh`s blog
 subtitle:
 description:
-author: Starkey Zhang
+author: Stake Zhang
 email: starkey86@163.com
 language: zh-Hans 
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://stakedo.com
+url: http://stake-zh.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,10 +69,10 @@ theme: next
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:starkey-zh/starkey-zh.github.io.git
+  repository: git@github.com:stake-zh/stake-zh.github.io.git
   branch: master
 duoshuo_shortname: starkey
 social:
-    github: https://github.com/starkey-zh
+    github: https://github.com/stake-zh
     weibo: http://weibo.com/starkey86
-    zhihu: http://www.zhihu.com/people/starkey-zhang
+    zhihu: http://www.zhihu.com/people/stake-zh
