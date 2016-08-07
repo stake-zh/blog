@@ -15,6 +15,7 @@ git fetch (--all)
 git pull (--rebase| -r)
 //(pull 表示把远程仓库的更新拉下来， --rebase 虽然是可选项， 但是一般都建议一起使用，这里涉及到 “基”的概念。
 ```
+<!-- more -->
 ###分支
 #### 切分支
 代码拉下来后默认是在master分支， 需要用 ``git checkout ref_name ``切过去
@@ -46,6 +47,9 @@ git config --get remote.origin.url
 
 //If referential integrity is intact:
 git remote show origin
+
+//本地git与远程服务器绑定
+git remote add origin git@github.com:xxx.git
 ```
 ###提交
 ####本地提交
@@ -195,3 +199,9 @@ git checkout 'SHA' //回退到制定'sha'值
 ###git 配置
 1. 修改git默认的编辑器nano为vim的方法``git config --global core.editor vim``
 2. 指定全局 ignore 文件 ``git config --global core.excludesfile  '/Users/xx/.gitignore_global' ``
+3. 修改某个git库下的用户名和邮箱
+
+```bash
+git config user.name 'user-name'
+git config user.email 'email'
+```
